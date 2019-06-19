@@ -1,0 +1,9 @@
+apply plugin: 'application'
+
+dependencies {
+    compile project(':f2dubbo-common')
+    compile project(':f2dubbo-remoting')
+    compile project(':f2dubbo-remoting:f2dubbo-remoting-api')
+}
+
+mainClassName = 'com.f2boy.f2dubbo.remoting.LaLaLa'

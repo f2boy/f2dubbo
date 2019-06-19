@@ -37,3 +37,8 @@ hs_err_pid*
 */target/
 */build/
 */gradle/
+
+# gradle
+gradlew
+gradlew.bat
+gradle/*

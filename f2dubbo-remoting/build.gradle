@@ -1,0 +1,8 @@
+
+subprojects {
+
+    dependencies {
+        compile project(':f2dubbo-common')
+    }
+
+}

@@ -1,0 +1,8 @@
+rootProject.name = 'f2dubbo'
+
+include 'f2dubbo-all'
+include 'f2dubbo-common'
+include 'f2dubbo-remoting'
+include 'f2dubbo-remoting:f2dubbo-remoting-api'
+include 'f2dubbo-remoting:f2dubbo-remoting-netty'
+
