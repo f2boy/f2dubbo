@@ -43,7 +43,10 @@ public class TestJsonSerialization {
     public void testDeserialize() throws Exception {
         InputStream is = new FileInputStream("D:/aaaa.txt");
         ObjectInput input = serialization.deserialize(is);
-        Object object;
+
+        Object object = input.readObject(SimpleObject.class);
+        System.out.println(JsonUtils.to(object));
+
         while ((object = input.readObject()) != null) {
             System.out.println(JsonUtils.to(object));
         }
