@@ -1,6 +1,6 @@
 package com.f2boy.f2dubbo.remoting;
 
-import com.f2boy.f2dubbo.util.JsonUtils;
+import com.f2boy.f2dubbo.common.util.JsonUtils;
 
 public class LaLaLa {
 

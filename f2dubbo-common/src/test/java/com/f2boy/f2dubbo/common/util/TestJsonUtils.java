@@ -1,11 +1,9 @@
-package com.f2boy.f2dubbo.util;
+package com.f2boy.f2dubbo.common.util;
 
-import lombok.Getter;
-import lombok.Setter;
+import com.f2boy.f2dubbo.common.SimpleObject;
 import org.junit.Test;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import static org.junit.Assert.assertEquals;
 
@@ -29,15 +27,6 @@ public class TestJsonUtils {
         assertEquals(a.getStrV(), b.getStrV());
         assertEquals(a.getDateV().getTime(), b.getDateV().getTime());
         assertEquals(a.getDoubleV(), b.getDoubleV(), 0.001);
-    }
-
-    @Getter
-    @Setter
-    static class SimpleObject {
-        private int intV;
-        private String strV;
-        private Date dateV;
-        private double doubleV;
     }
 
 }

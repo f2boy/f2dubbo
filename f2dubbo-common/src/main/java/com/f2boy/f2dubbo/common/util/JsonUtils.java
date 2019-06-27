@@ -1,4 +1,4 @@
-package com.f2boy.f2dubbo.util;
+package com.f2boy.f2dubbo.common.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -15,9 +15,7 @@ public final class JsonUtils {
     }
 
     public static <T> T from(String json, Class<T> c, String dateFormat) {
-        Gson gson = new GsonBuilder()
-                .setDateFormat(dateFormat)
-                .create();
+        Gson gson = new GsonBuilder().setDateFormat(dateFormat).create();
         return gson.fromJson(json, c);
     }
 
@@ -26,9 +24,7 @@ public final class JsonUtils {
     }
 
     public static String to(Object o, String dateFormat) {
-        Gson gson = new GsonBuilder()
-                .setDateFormat(dateFormat)
-                .create();
+        Gson gson = new GsonBuilder().setDateFormat(dateFormat).create();
         return gson.toJson(o);
     }
 
