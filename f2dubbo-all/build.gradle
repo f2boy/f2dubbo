@@ -6,4 +6,4 @@ dependencies {
     compile project(':f2dubbo-remoting:f2dubbo-remoting-api')
 }
 
-mainClassName = 'com.f2boy.f2dubbo.remoting.LaLaLa'
+mainClassName = 'com.f2boy.f2dubbo.common.LaLaLa'

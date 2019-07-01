@@ -1,4 +1,4 @@
-package com.f2boy.f2dubbo.remoting;
+package com.f2boy.f2dubbo.common;
 
 import com.f2boy.f2dubbo.common.util.JsonUtils;
 
